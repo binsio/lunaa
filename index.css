@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Homemade+Apple&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+audio::-webkit-media-controls-panel {
+  background-image: url('pics/nav.jpg');
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+  font-family: 'Louis George Cafe', sans-serif;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+  font-family: 'Louis George Cafe', sans-serif;
+}
+audio::-webkit-media-controls-timeline {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+audio::-webkit-media-controls-volume-slider {
+  background-color: white;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: white;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button {
+  background-color: white;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: gray;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #213a5c; 
+}
+::-webkit-scrollbar-thumb {
+  background: #08244a; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #072043; 
+}	
+body {
+	background-image: url('pics/bg.jpg');
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+nav {
+	background-image: url('pics/nav.jpg');
+	padding: 10px;
+	width: 50%;
+	background-size: cover;
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px white;
+	position: fixed;
+	left: 25%;
+}
+nav img {
+	margin: 20px;
+}
+audio {
+	width: 85%;
+}
+.about img {
+	border-radius: 50%;
+	border: solid 5px;
+	border-color: white;
+	float:left;
+	margin-left: 100px;
+}
+.about h1 {
+	font-family: 'LEMON MILK', sans-serif;
+	font-size: 44.4px;
+	color: white;
+	text-shadow: 0px 0px 20px black;
+}
+.about p {
+	font-family: 'Louis George Cafe', sans-serif;
+	color: white;
+	font-size: 30px;
+	margin-right: 100px;
+	margin-left: 700px;
+	background-color: rgba(0,0,0,.5);
+	padding: 50px;
+	border-radius: 30px;
+}
+.quote h1 {
+	color: white;
+	font-size: 44.4px;
+	font-family: 'Homemade Apple', cursive;
+	text-shadow: 0px 0px 5px white;
+	margin-right: 100px;
+	margin-left: 100px;
+}	
+.navbar img:hover {
+	transition: 0.7s;
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px white;
+}
+fieldset {
+	background-color: black;
+	padding: 20px;
+	background-color: rgba(0,0,0,.5);
+	margin: 0;
+	color: white;
+	border-radius: 20px;
+	border: dashed;
+}
+.newmoon {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.newmoon h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 15.5%;
+	font-size: 40px;
+}
+.newmoon h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.newmoon p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.mun {
+	padding: 50px;
+}
+.moony {
+	float: left;
+}
+.waxcresc {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.waxcresc h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 25%;
+	font-size: 40px;
+}
+.waxcresc h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.waxcresc p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+
+.firstquart {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.firstquart h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 20.5%;
+	font-size: 40px;
+}
+.firstquart h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.firstquart p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.waxgibbous {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.waxgibbous h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 23.5%;
+	font-size: 40px;
+}
+.waxgibbous h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.waxgibbous p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.fullmoon {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.fullmoon h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 16%;
+	font-size: 40px;
+}
+.fullmoon h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.fullmoon p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.wangibbous {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.wangibbous h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 23.5%;
+	font-size: 40px;
+}
+.wangibbous h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.wangibbous p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.thirdquart {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.thirdquart h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 21.5%;
+	font-size: 40px;
+}
+.thirdquart h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.thirdquart p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.wancresc {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.wancresc h1{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: 'LEMON MILK', sans-serif;
+	background: url('pics/nav.jpg');
+	width: 25.5%;
+	font-size: 40px;
+}
+.wancresc h3 {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 30px;
+	margin-left: 400px;
+}
+.wancresc p {
+	font-family: 'Louis George Cafe', sans-serif;
+	font-size: 25px;
+	margin-left: 400px;
+}
+footer {
+	width: 98%;
+	padding: 10px;
+	background-color: #08244a;
+	color: white;
+	border-radius: 10px;
+	
+}
+footer h3 {
+	font-family: 'LEMON MILK', sans-serif;
+}
+footer img {
+	padding: 10px;
+}
+
+	
+	
+	
+	
+
+	
